@@ -210,12 +210,6 @@ header
 }
 
 
-@media screen and (max-width: 900px) {
-    header
-     {
-        
-    }
-}
 
 
 
@@ -459,3 +453,28 @@ header
   font-size: 14px;
   color: #888;
 }
+
+.busy
+{
+    display: none;
+    color: red;
+}
+
+@media  screen and (max-width: 900px){
+    body{
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+    }
+    .busy{
+        display: inline;
+        font-size: 1rem;
+        color: #00bcd4;
+        position: absolute;
+        top: 40%;
+    }
+    .full-container{
+        display: none;
+    }
+}
+
