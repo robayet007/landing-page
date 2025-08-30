@@ -478,3 +478,70 @@ header
     }
 }
 
+/* login.html */
+
+.login-container
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8365.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-container form
+{
+   height: 400px;
+   width: 300px;
+   background-color: red;
+   padding: 1rem;
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(10px);
+   border-radius: 15px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+}
+
+
+form h1
+{
+    text-align: center;
+    color: #ff6600;
+}
+
+form input
+{
+    padding: 0.7rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    margin:  0 1rem 0 0;
+}
+
+form input::placeholder{
+    color: #ccc;
+}
+
+.login-submit
+{
+   padding: 0.8rem;
+   background-color: #00bcd4;
+   border: none;
+   border-radius: 15px;
+   font-weight: 600;
+   color: white;
+   font-size: 1rem;
+   margin: 1rem 0 1rem 0;
+   cursor: pointer;
+}
+
